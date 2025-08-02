@@ -1,12 +1,15 @@
-<script setup></script>
+<script setup>
+import Menu from '@/components/Menu/Menu.vue'
+</script>
 
 <template>
   <div class="main-layout">
-    <header>Main Header</header>
+    <!-- <header>Main Header</header> -->
     <main>
-      <slot />
+      <Menu />
     </main>
-    <footer>Main Footer</footer>
+
+    <!-- <footer>Main Footer</footer> -->
   </div>
 </template>
 

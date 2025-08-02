@@ -2,7 +2,7 @@
 const icons = ['/src/', '/src/', '/src/', '/src/', '/src/']
 
 const menuItems = [
-  { id: '1', name: 'صفحه اصلی', route: '/home', icon: './src/assets/icons/menu/' },
+  { id: '1', name: 'صفحه اصلی', route: '/home', icon: 'src/assets/icons/menu/home-off.svg' },
   {
     id: '2',
     name: 'دسته بندی',
@@ -29,7 +29,12 @@ const menuItems = [
   <nav>
     <ul>
       <li v-for="menuItem in menuItems" :key="menuItem.id">
-        <router-link :to="menuItem.icon">{{ menuItem.name }}</router-link>
+        <router-link :to="menuItem.icon">
+          <span>
+            {{ menuItem.name }}
+          </span>
+          <img :src="menuItem.icon" alt="" />
+        </router-link>
       </li>
     </ul>
   </nav>
