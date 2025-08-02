@@ -4,6 +4,6 @@ import { RouterView } from 'vue-router'
 
 <template>
   <div class="container">
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>

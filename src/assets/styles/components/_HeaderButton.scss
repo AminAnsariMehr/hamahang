@@ -1,0 +1,20 @@
+.header-btn {
+  width: 112px;
+  height: 32px;
+  padding: 6px 12px;
+  color: var(--color-text-goten);
+  background: var(--color-piccolo);
+  border: none;
+  border-radius: var(--Radius-xs);
+  text-align: right;
+  font-family: var(--font-fontFamilies-primary-fa);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-s);
+  flex-shrink: 0;
+}

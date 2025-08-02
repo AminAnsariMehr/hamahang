@@ -1,5 +1,9 @@
-@use 'variables/index.scss';
-@use 'reset';
+@use 'base' as *;
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'components' as *;
+@use 'pages' as *;
+@use 'layouts' as *;
 
 *,
 *::before,
@@ -21,11 +25,12 @@ body {
   margin: 0 auto;
   width: 100dvw;
   height: 100dvh;
+  // padding: 24px;
 
   min-width: 320px;
   max-width: 440px;
-  padding: 24px;
 
+  min-height: 568px;
   max-height: 940px;
 
   display: flex;

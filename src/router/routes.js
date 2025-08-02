@@ -61,8 +61,40 @@
 
 const routes = [
   {
+    name: 'dashboard',
     path: '/',
     component: () => import('./../layouts/MainLayout.vue'),
+    redirect: '/home',
+
+    children: [
+      {
+        name: 'home',
+        path: '/home',
+        component: () => import('@/pages/dashboard/HomeView.vue'),
+      },
+      {
+        name: 'categories',
+        path: '/categories',
+        component: () => import('@/pages/dashboard/CategoriesView.vue'),
+      },
+      {
+        name: 'search',
+        path: '/search',
+        component: () => import('@/pages/dashboard/SearchView.vue'),
+      },
+      {
+        name: 'watchlist',
+        path: '/watchlist',
+        component: () => import('@/pages/dashboard/WatchlistView.vue'),
+        meta: { requiresAuth: true },
+      },
+      {
+        name: 'profile',
+        path: '/profile',
+        component: () => import('@/pages/dashboard/ProfileView.vue'),
+        meta: { requiresAuth: true },
+      },
+    ],
   },
 ]
 

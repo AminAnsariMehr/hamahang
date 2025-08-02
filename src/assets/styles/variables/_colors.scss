@@ -1,96 +1,87 @@
-/* Colors */
-$color-piccolo: #8d51f6;
-$color-hit: #40a69f;
-$color-jiren: #58ff71;
-$color-goten: #ffffff;
-$color-beerus: #e8e8e8;
-$color-zeno: #b2b2b2;
-$color-heles: #949494;
-$color-moho: #565656;
-$color-gohan: #424242;
-$color-bulma: #2f2f2f;
-$color-trunks: #222222;
-$color-goku: #161616;
-$color-popo: #000000;
-
-/* Text Colors */
-$color-text-goten: #ffffff;
-$color-text-beerus: #e8e8e8;
-$color-text-trunks: #222222;
-$color-text-zeno: #b2b2b2;
-$color-text-moho: #565656;
-
-/* Feedback Colors */
-$color-feedback-success: #54c15f;
-$color-feedback-error: #ff5656;
-$color-feedback-warning: #ff9500;
-$color-feedback-success-2: #39d98a;
-$color-feedback-error-200: #ff565633;
-$color-feedback-success-bold: #305734;
-
-/* Accent Colors */
-$color-accent-irancell: #ffcb00;
-$color-accent-rightel: #9d00ab;
-$color-accent-romi-25: #fdfdfd08;
-$color-accent-imdb: #fbbf14;
-$color-accent-gohan-200: #42424233;
-$color-accent-heles-400: #94949466;
-$color-accent-goten-200: #ffffff33;
-$color-accent-goku-750: #161616bf;
-$color-accent-hamrah: #0094da;
-$color-accent-popo-500: #00000080;
-$color-accent-romi-50: #fdfdfd0d;
-
-/* Border Colors */
-$color-border-moho: #565656;
-$color-border-gohan: #424242;
-$color-border-piccolo: #8d51f6;
-$color-border-goten: #ffffff;
-$color-border-romi-25: #fdfdfd08;
-
-/* Romi */
-$color-romi: #fdfdfd;
-
-/* Background Colors */
-$color-bg-goku: #161616;
-$color-bg-trunks: #222222;
-$color-bg-gohan: #424242;
-
-/* Icon Colors */
-$color-icon-piccolo: #8d51f6;
-$color-icon-zeno: #b2b2b2;
-$color-icon-moho: #565656;
-$color-icon-beerus: #e8e8e8;
-
-/* Fill Colors */
-$color-fill-romi-50: #fdfdfd0d;
-$color-fill-trunks: #222222;
-
-/* Supportive Colors */
-$color-supportive-krillin-0: #fddd48;
-$color-supportive-krillin-1: #ffcc00;
-$color-supportive-krillin-2: #e5b800;
-$color-supportive-chichi-0: #ff5c5c;
-$color-supportive-chichi-1: #ff3b3b;
-$color-supportive-chichi-2: #e53535;
-$color-supportive-roshi-0: #39d98a;
-$color-supportive-roshi-1: #06c270;
-$color-supportive-roshi-2: #05a660;
-$color-supportive-dodoria-0: #ac5dd9;
-$color-supportive-frieza-1: #72b8a2;
-$color-supportive-frieza-2: #588f7e;
-$color-supportive-dodoria-1: #6600cc;
-$color-supportive-dodoria-2: #4c0099;
-$color-supportive-cell-0: #73dfe7;
-$color-supportive-cell-1: #00cfde;
-$color-supportive-cell-2: #00b7c4;
-$color-supportive-raditz-0: #e0a667;
-$color-supportive-raditz-1: #b3804a;
-$color-supportive-raditz-2: #805b35;
-$color-supportive-whis-0: #4356f0;
-$color-supportive-whis-1: #3448f0;
-$color-supportive-whis-2: #2b3799;
-$color-supportive-frieza-0: #95f1d5;
-$color-supportive-nappa-0: #725550;
-$color-supportive-nappa-1: #5c4440;
-$color-supportive-nappa-2: #473532;
+:root {
+  /* === COLORS === */
+  --color-piccolo: #8d51f6;
+  --color-hit: #40a69f;
+  --color-jiren: #58ff71;
+  --color-goten: #ffffff;
+  --color-beerus: #e8e8e8; /* Original: #8D51F6 at 56% opacity */
+  --color-zeno: #b2b2b2;
+  --color-heles: #949494;
+  --color-moho: #565656;
+  --color-gohan: #424242;
+  --color-bulma: #2f2f2f;
+  --color-trunks: #232323;
+  --color-goku: #161616;
+  --color-popo: #000000;
+  --color-text-goten: #ffffff;
+  --color-text-beerus: #e8e8e8;
+  --color-text-trunks: #222222;
+  --color-text-zeno: #b2b2b2;
+  --color-text-moho: #565656;
+  --color-feedback-success: #54c15f;
+  --color-feedback-error: #ff5656;
+  --color-feedback-warning: #ff9500;
+  --color-feedback-success-2: #39d98a;
+  --color-feedback-error-200: #ff565633;
+  --color-feedback-success-bold: #305734;
+  --color-accent-irancell: #ffcb00; /* Original: #FFFFFF at 31% opacity */
+  --color-accent-rightel: #9d00ab;
+  --color-accent-romi-25: #fdfdfd08;
+  --color-accent-imdb: #fbbf14;
+  --color-accent-gohan-200: #42424233;
+  --color-accent-heles-400: #94949466;
+  --color-accent-goten-200: #ffffff33;
+  --color-accent-goku-750: #161616bf;
+  --color-accent-hamrah: #0094da;
+  --color-accent-popo-500: #00000080;
+  --color-accent-romi-50: #fdfdfd0d;
+  --color-accent-moho-300: #5656564d;
+  --color-accent-gohan-700: #424242b3;
+  --color-accent-piccolo0: #c19eff;
+  --color-accent-piccolo-150: #8d51f626;
+  --color-border-moho: #565656;
+  --color-border-gohan: #424242;
+  --color-border-piccolo: #8d51f6;
+  --color-border-goten: #ffffff;
+  --color-border-romi-25: #fdfdfd08;
+  --color-romi: #fdfdfd;
+  --color-bg-goku: #161616;
+  --color-bg-trunks: #222222;
+  --color-bg-gohan: #424242;
+  --color-icon-piccolo: #8d51f6;
+  --color-icon-zeno: #b2b2b2;
+  --color-icon-moho: #565656;
+  --color-icon-beerus: #e8e8e8;
+  --color-fill-romi-50: #fdfdfd0d;
+  --color-fill-trunks: #222222;
+  --color-supportive-krillin-0: #fddd48;
+  --color-supportive-krillin-1: #ffcc00;
+  --color-supportive-krillin-2: #e5b800;
+  --color-supportive-chichi-0: #ff5c5c;
+  --color-supportive-chichi-1: #ff3b3b;
+  --color-supportive-chichi-2: #e53535;
+  --color-supportive-roshi-0: #39d98a;
+  --color-supportive-roshi-1: #06c270;
+  --color-supportive-roshi-2: #05a660;
+  --color-supportive-dodoria-0: #ac5dd9;
+  --color-supportive-frieza-1: #72b8a2;
+  --color-supportive-frieza-2: #588f7e;
+  --color-supportive-dodoria-1: #6600cc;
+  --color-supportive-dodoria-2: #4c0099;
+  --color-supportive-cell-0: #73dfe7;
+  --color-supportive-cell-1: #00cfde;
+  --color-supportive-cell-2: #00b7c4;
+  --color-supportive-raditz-0: #e0a667;
+  --color-supportive-raditz-1: #b3804a;
+  --color-supportive-raditz-2: #805b35;
+  --color-supportive-whis-0: #4356f0;
+  --color-supportive-whis-1: #3448f0;
+  --color-supportive-whis-2: #2b3799;
+  --color-supportive-frieza-0: #95f1d5;
+  --color-supportive-nappa-0: #725550;
+  --color-supportive-nappa-1: #5c4440;
+  --color-supportive-nappa-2: #473532;
+  --color-supportive-rosha-0: #ffa85c;
+  --color-supportive-rosha-1: #ff851a;
+  --color-supportive-rosha-2: #d66f16;
+}

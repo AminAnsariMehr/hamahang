@@ -1,16 +1,10 @@
 <script setup>
-import Menu from '@/components/Menu/Menu.vue'
+import AppMenu from '@/components/Menu/AppMenu.vue'
 </script>
 
 <template>
   <div class="main-layout">
-    <!-- <header>Main Header</header> -->
-    <main>
-      <Menu />
-    </main>
-
-    <!-- <footer>Main Footer</footer> -->
+    <router-view></router-view>
+    <app-menu></app-menu>
   </div>
 </template>
-
-<style lang="scss" scoped></style>
